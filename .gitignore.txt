@@ -1,0 +1,142 @@
+-0,0 +1,53 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Project generated files #
+###########################
+.project
+*.cmd
+.setting/
+.classpath
+.factorypath
+*.md
+bin/
+target/
+test/
+erp_task_management/pom.xml
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.attach*
+.temp*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+erp_employee/mvnw
+hrm_mess/mvnw
+erp_recruitment/mvnw
+<<<<<<< Updated upstream
+*/mvnw
+*/.-0,0 +1,53 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Project generated files #
+###########################
+.project
+*.cmd
+.setting/
+.classpath
+.factorypath
+*.md
+bin/
+target/
+test/
+/eclipse-workspace/.metadata/*
+erp_task_management/pom.xml
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.attach*
+.temp*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+erp_employee/mvnw
+hrm_mess/mvnw
+erp_recruitment/mvnw
+*/mvnw
+*/.metadata
+/.idea/
+=======
+erp_payroll/mvnw
+*.settings/
+/.idea/
+erp_payroll/.settings/org.eclipse.jdt.apt.core.prefs
+*.prefs
+erp_payroll/.settings/org.eclipse.jdt.apt.core.prefs/
+/.idea/
+=======
+erp_payroll/mvnw
+*.settings/
+/eclipse-workspace/
+/.idea/
+erp_payroll/.settings/org.eclipse.jdt.apt.core.prefs
+*.prefs
+erp_payroll/.settings/org.eclipse.jdt.apt.core.prefs
