@@ -51,5 +51,6 @@ public class Attendance_template_Download {
 	@AfterClass
 	public void After() {
         driver.quit();
+		System.out.println("browser Closed");
 	}
 }
