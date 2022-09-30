@@ -20,10 +20,10 @@ public class SendMailUsingAuthentication {
 
 	  public static final String emailMsgTxt      = "Error found while clicking on an element";
 	  public static final String emailSubjectTxt  = "Please correct the Xpath, since on a click event no element was found";
-	  public static final String emailFromAddress = "sushilprem2293@gmail.com";
+	  public static final String emailFromAddress = "email_id";
 
 	  // Add List of Email address to who email needs to be sent to
-	  public static final String[] emailList = {"sushilprem@live.co.uk"};
+	  public static final String[] emailList = {"email_id"};
 	/*
 	  public static void main(String args[]) throws Exception
 	  {

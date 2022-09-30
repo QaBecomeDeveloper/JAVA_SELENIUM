@@ -15,7 +15,7 @@ public class ScreenShot {
 		System.setProperty("webdriver.chrome.driver","D:\\TESTING\\chromedriver.exe" );
 		WebDriver driver = new ChromeDriver();	
 		SendMailUsingAuthentication mail = new SendMailUsingAuthentication();
-		driver.get("http://hrmqa.nkcproject.com/");
+		driver.get("url");
 		driver.manage().window().maximize();
 		File scrfilFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrfilFile, new File("D:\\Secreenshot\\Capture1.jpg"));
