@@ -25,7 +25,7 @@ public class LOGIN_TEST {
 	
 	@BeforeMethod
 	public void OpenBrowser(){  //OpenBrowser
-	driver.get("http://qajagdamba.nyggs.com/");
+	driver.get("url");
 	System.out.println("We are currently on the following URL" + driver.getCurrentUrl());
 	Reporter.log("Open Url Successfully");
 	}
@@ -33,11 +33,11 @@ public class LOGIN_TEST {
 	@Test(priority = 1) //valid credentials
 	public void Credentialone() {
 		try {
-	driver.findElement(By.id("empCode")).sendKeys("cd-admin");
-	driver.findElement(By.id("password")).sendKeys("rst@#2020");
+	driver.findElement(By.id("empCode")).sendKeys("df");
+	driver.findElement(By.id("password")).sendKeys("d@#2020");
 	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	Thread.sleep(3000L);
-    Assert.assertEquals(driver.getCurrentUrl(), "http://qajagdamba.nyggs.com/selectrole");
+    Assert.assertEquals(driver.getCurrentUrl(), "url/selectrole");
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());
@@ -50,12 +50,12 @@ public class LOGIN_TEST {
 	@Test(priority = 2) //Invalid Password 
 	public void Credentialtwo() {
 		try {
-	driver.findElement(By.id("empCode")).sendKeys("workfreaks-admin");
-	driver.findElement(By.id("password")).sendKeys("rst@#2021");
+	driver.findElement(By.id("empCode")).sendKeys("s-admin");
+	driver.findElement(By.id("password")).sendKeys("s@#2021");
 	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
     Alert A= driver.switchTo().alert();
     A.accept();
-    Assert.assertNotEquals(driver.getCurrentUrl(), "http://qajagdamba.nyggs.com");
+    Assert.assertNotEquals(driver.getCurrentUrl(), "url");
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());
@@ -67,12 +67,12 @@ public class LOGIN_TEST {
 	@Test(priority = 3) //Invalid employee code
 	public void Credentialthree() {
 		try {
-	driver.findElement(By.id("empCode")).sendKeys("workfreaks");
-	driver.findElement(By.id("password")).sendKeys("rst@#2020");
+	driver.findElement(By.id("empCode")).sendKeys("uid");
+	driver.findElement(By.id("password")).sendKeys("rst@#");
 	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	Alert A= driver.switchTo().alert();
     A.accept();
-    Assert.assertNotEquals(driver.getCurrentUrl(), "http://qajagdamba.nyggs.com");
+    Assert.assertNotEquals(driver.getCurrentUrl(), "url");
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());
@@ -89,7 +89,7 @@ public class LOGIN_TEST {
 	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	Alert A= driver.switchTo().alert();
     A.accept();
-    Assert.assertNotEquals(driver.getCurrentUrl(), "http://qajagdamba.nyggs.com");
+    Assert.assertNotEquals(driver.getCurrentUrl(), "url");
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());

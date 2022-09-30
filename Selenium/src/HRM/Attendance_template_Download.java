@@ -22,7 +22,7 @@ public class Attendance_template_Download {
 	
 	@BeforeMethod
 	public void OpenBrowser(){  //OpenBrowser
-	driver.get("http://qajagdamba.nyggs.com/");
+	driver.get("url/");
 	System.out.println("We are currently on the following URL" + driver.getCurrentUrl());
 	}
 	

@@ -15,9 +15,9 @@ public class TC_01 {
 		System.setProperty("webdriver.chrome.driver","E:\\program\\chromedriver.exe");
 	      WebDriver driver = new ChromeDriver();
 	      driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-	      driver.get("http://qajagdamba.nyggs.com/");
-	      driver.findElement(By.id("empCode")).sendKeys("cd-admin");
-	  	driver.findElement(By.id("password")).sendKeys("rst@#2020");
+	      driver.get("url/");
+	      driver.findElement(By.id("empCode")).sendKeys("uid");
+	  	driver.findElement(By.id("password")).sendKeys("psw");
 	  	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	  	driver.manage().window().maximize();
 	  	Thread.sleep(2000);

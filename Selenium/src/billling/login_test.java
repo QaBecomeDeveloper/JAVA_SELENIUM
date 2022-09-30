@@ -26,7 +26,7 @@ public class login_test {
 	
 	@BeforeMethod
 	public void OpenBrowser(){  //OpenBrowser
-	driver.get("http://qabilling.nyggs.com/");
+	driver.get("url");
 	System.out.println("We are currently on the following URL" + driver.getCurrentUrl());
 	Reporter.log("Title of the page is: " + driver.getTitle());
 	}
@@ -34,11 +34,11 @@ public class login_test {
 	@Test(priority = 1) //valid credentials
 	public void Credentialone() {
 		try {
-	driver.findElement(By.id("empCode")).sendKeys("lev001");
-	driver.findElement(By.id("password")).sendKeys("lev001");
+	driver.findElement(By.id("empCode")).sendKeys("code");
+	driver.findElement(By.id("password")).sendKeys("psw");
 	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	Thread.sleep(3000L);
-    Assert.assertEquals(driver.getCurrentUrl(), "http://qajagdamba.nyggs.com/selectrole");
+    Assert.assertEquals(driver.getCurrentUrl(), "url/selectrole");
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());
@@ -54,7 +54,7 @@ public class login_test {
 	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
     Alert A= driver.switchTo().alert();
     A.accept();
-    Assert.assertNotEquals(driver.getCurrentUrl(), "http://qajagdamba.nyggs.com");
+    Assert.assertNotEquals(driver.getCurrentUrl(), "url");
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());
@@ -70,7 +70,7 @@ public class login_test {
 	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	Alert A= driver.switchTo().alert();
     A.accept();
-    Assert.assertNotEquals(driver.getCurrentUrl(), "http://qajagdamba.nyggs.com");
+    Assert.assertNotEquals(driver.getCurrentUrl(), "url");
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());
@@ -86,7 +86,7 @@ public class login_test {
 	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	Alert A= driver.switchTo().alert();
     A.accept();
-    Assert.assertNotEquals(driver.getCurrentUrl(), "http://qajagdamba.nyggs.com");
+    Assert.assertNotEquals(driver.getCurrentUrl(), "url");
 		}
 		catch (Exception e){
 			System.out.println(e.getMessage());

@@ -20,7 +20,7 @@ public class DatabaseTesingDemo {
 	// Constant for Database Username
 	public static String DB_USER = "root";
 	// Constant for Database Password
-	public static String DB_PASSWORD = "Jaan@2021";
+	public static String DB_PASSWORD = "passward";
 	 
 	@SuppressWarnings("deprecation")
 	@BeforeTest

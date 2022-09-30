@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1f51e8aa-dc33-4701-9470-e0327ac5c1a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/ScreenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/SendMailUsingAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/SendMailUsingAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/src/JAVA_LEARN/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA/src/JAVA_LEARN/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/DatabaseTesingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/DatabaseTesingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/HRM_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/HRM_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Selenium/src/MODULE1/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/src/HRM/Attendance_template_Download.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/src/HRM/Attendance_template_Download.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/src/HRM/LOGIN_TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/src/HRM/LOGIN_TEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/src/LAUNCH_BROWSER/TC_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/src/LAUNCH_BROWSER/TC_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/src/billling/login_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/src/billling/login_test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

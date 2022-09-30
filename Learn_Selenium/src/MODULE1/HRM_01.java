@@ -16,9 +16,9 @@ public class HRM_01 {
     	WebDriver driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-	  driver.get("http://hrmqa.nyggs.com/");
-	  driver.findElement(By.xpath("//input[@id='empCode']")).sendKeys("cd-admin");
-	  driver.findElement(By.xpath("//input[@id='psw']")).sendKeys("rst@#2020");
+	  driver.get("url");
+	  driver.findElement(By.xpath("//input[@id='empCode']")).sendKeys("uid");
+	  driver.findElement(By.xpath("//input[@id='psw']")).sendKeys("password");
 	  driver.findElement(By.xpath("//button[@id='btnId']")).click();
 	  Thread.sleep(1000);
 	  driver.findElement(By.xpath("//*[@id=\"root\"]/main/main/div/div[1]/div/button/div[2]")).click();
