@@ -15,8 +15,8 @@ public class SendMailUsingAuthentication {
 
 
 	  public static final String SMTP_HOST_NAME = "smtp.gmail.com";
-	  public static final String SMTP_AUTH_USER = "sushilprem2293@gmail.com";
-	  public static final String SMTP_AUTH_PWD  = "sushilprem";
+	  public static final String SMTP_AUTH_USER = "email_id";
+	  public static final String SMTP_AUTH_PWD  = "password";
 
 	  public static final String emailMsgTxt      = "Error found while clicking on an element";
 	  public static final String emailSubjectTxt  = "Please correct the Xpath, since on a click event no element was found";
