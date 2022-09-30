@@ -25,7 +25,7 @@ public class SELTEST {
  public void valid_UserCredential(WebDriver driver, WebElement element){
 
 	 System.out.println("Starting test " + new Object(){}.getClass().getEnclosingMethod().getName());
-     driver.get("http://qajagdamba.nyggs.com/");
+     driver.get("url/");
      driver.findElement(By.id("empCode")).sendKeys("ssh001");
      driver.findElement(By.id("psw")).sendKeys("ssh001");
      driver.findElement(By.xpath("//*[@id=\"btnId\"]/span[1]")).click();
@@ -42,7 +42,7 @@ public class SELTEST {
  {
 	 System.out.println("Starting test " + new Object(){}.getClass().getEnclosingMethod().getName());
 	 System.out.println("Starting test " + new Object(){}.getClass().getEnclosingMethod().getName());
-     driver.get("http://qajagdamba.nyggs.com/");
+     driver.get("url/");
      driver.findElement(By.id("empCode")).sendKeys("ssh001");
      driver.findElement(By.id("psw")).sendKeys("ssh002");
      driver.findElement(By.xpath("//*[@id=\"btnId\"]/span[1]")).click();

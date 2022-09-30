@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f51e8aa-dc33-4701-9470-e0327ac5c1a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learn_Selenium/src/HRMS/D_A_template.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Selenium/src/HRMS/D_A_template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learn_Selenium/src/HRMS/Import_AT.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Selenium/src/HRMS/Import_AT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn_Selenium/src/module2/SELTEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Selenium/src/module2/SELTEST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
