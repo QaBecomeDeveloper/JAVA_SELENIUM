@@ -15,7 +15,7 @@ public class D_A_template {
 	  driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	  
 	  //login Hrms.............
-	  driver.get("http://qajagdamba.nyggs.com/");
+	  driver.get("url/");
 	  driver.findElement(By.xpath("//input[@id='empCode']")).sendKeys("pc001");
 	  driver.findElement(By.xpath("//input[@id='psw']")).sendKeys("1234567");
 	  driver.findElement(By.xpath("//button[@id='btnId']")).click();
